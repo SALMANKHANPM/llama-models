@@ -29,7 +29,7 @@ from rich.progress import (
 )
 from termcolor import cprint
 
-from llama_models.cli.subcommand import Subcommand
+from .subcommand import Subcommand
 from llama_models.sku_list import LlamaDownloadInfo
 from llama_models.sku_types import Model
 
@@ -461,7 +461,7 @@ def run_download_cmd(args: argparse.Namespace, parser: argparse.ArgumentParser):
 
         from llama_models.sku_list import llama_meta_net_info, resolve_model
 
-        from .model.safety_models import (
+        from .safety_models import (
             prompt_guard_download_info_map,
             prompt_guard_model_sku_map,
         )

@@ -14,7 +14,7 @@ from pathlib import Path
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-from llama_models.cli.subcommand import Subcommand
+from .subcommand import Subcommand
 
 
 @dataclass

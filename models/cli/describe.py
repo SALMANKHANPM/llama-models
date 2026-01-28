@@ -8,7 +8,7 @@
 import argparse
 import json
 
-from llama_models.cli.subcommand import Subcommand
+from .subcommand import Subcommand
 from llama_models.cli.table import print_table
 from llama_models.sku_list import resolve_model
 

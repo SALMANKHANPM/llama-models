@@ -9,7 +9,7 @@ import argparse
 import os
 import shutil
 
-from llama_models.cli.subcommand import Subcommand
+from .subcommand import Subcommand
 from llama_models.utils.config import DEFAULT_CHECKPOINT_DIR
 from llama_models.sku_list import resolve_model
 

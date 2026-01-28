@@ -10,7 +10,7 @@ import textwrap
 from io import StringIO
 from pathlib import Path
 
-from llama_models.cli.subcommand import Subcommand
+from .subcommand import Subcommand
 from llama_models.cli.table import print_table
 from llama_models.sku_types import CoreModelId, ModelFamily, is_multimodal, model_family
 
